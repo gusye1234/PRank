@@ -1,3 +1,4 @@
+from .world import *
 __author__ = "Jianbai Ye"
 __mail__ = "jianbaiye@outlook.com"
 __doc__="""
