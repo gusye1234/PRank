@@ -23,16 +23,17 @@ from .world import *
 #     MATCHER.remove('pattern extraction')
 #     return phrases
 # -------------------------------------------
-def generate_wildcard(phrase1, phrase2, cards=5):
+def generate_wildcard(phrase1, phrase2, cards=5, minimal=2):
     """
     return patterns with wildcard between. (phrase1 ... phrase2)
     """
     assert isinstance(phrase1, list) and isinstance(phrase2, list)
     pats = []
-    for num_card in range(cards):
+    for num_card in range(minimal, cards):
         pats.append(phrase1 + [{}]*num_card + phrase2)
     return pats
-
+# -------------------------------------------
+def isLine(line): return not any([token.is_punct for token in line])
 # -------------------------------------------
 def str2phrase(string : str, tag="LOWER"):
     strs = string.split()

@@ -6,7 +6,11 @@ import numpy as np
 import pickle
 
 class Docs:
-    block_num = 100000
+    """
+    :class A wrapper for spacy.Doc
+        :method
+    """
+    block_num = 1000000
     
     @staticmethod
     def getMatchesDoc(matches, doc):
@@ -39,19 +43,13 @@ class Docs:
         strs = strs + f"have {self._readPtr} docs, each with {Docs.block_num} bytes"
         return strs
         
-    def load(self):
-        dump_dir = '.'
-        for file in os.listdir(dump_dir):
-            if self._filebase in file:
-                print(">>find docs in", join(dump_dir, file))
-                with open(join(dump_dir, file), 'rb') as f:
-                    self._docs = pickle.load(f)
-                    self._readPtr = len(self._docs)
+    def load(self, name):
+        with open(name, 'rb') as f:
+            self._docs = pickle.load(f)
+            self._readPtr = len(self._docs)
     
-    def save(self):
-        savename = self._filebase + ".pth"
-        dump_dir = '.'
-        with open(join(dump_dir, savename), 'wb') as f:
+    def save(self, name):
+        with open(name, 'wb') as f:
             pickle.dump(self._docs, f)
     
     def initialize(self, preload=None):
@@ -74,7 +72,10 @@ class Docs:
         matcher = Matcher(NLP.vocab)
         matcher.add("_", None, *patterns)
         matches = []
+        match_span = []
         for doc in self._docs:
-            matches.extend(Docs.getMatchesDoc(matcher(doc), doc))    
-        return matches
+            match = matcher(doc)
+            matches.extend(match)
+            match_span.extend(Docs.getMatchesDoc(match, doc))    
+        return matches, match_span
 # -------------------------------------------

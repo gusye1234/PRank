@@ -12,8 +12,6 @@ from whoosh.query import Every
 
 from collections import defaultdict
 
-import itertools
-import networkx as nx
 import matplotlib.pyplot as plt
 import numpy as np
 from rich.progress import track
@@ -28,4 +26,10 @@ infixes = tuple([r"'s\b", r"(?<!\d)\.(?!\d)"]) +  NLP.Defaults.prefixes
 infix_re = spacy.util.compile_infix_regex(infixes)
 NLP.tokenizer = Tokenizer(NLP.vocab, infix_finditer=infix_re.finditer)
 
-DATAPATH = 'data/wiki'
+DATAPATH = 'data'
+np.set_printoptions(precision=3)
+
+def ystr(param): return f"[bold yellow]{param}[/bold yellow]"
+def gstr(param): return f"[bold green]{param}[/bold green]"
+def bstr(param): return f"[bold blue]{param}[/bold blue]"
+def rstr(param): return f"[bold red]{param}[/bold red]"
