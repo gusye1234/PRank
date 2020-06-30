@@ -14,14 +14,15 @@ from . import inference
 def test_docs():
     phrase1 = utils.str2phrase("natural language processing")
     phrase2 = utils.str2phrase("machine learning")
-    patterns= utils.generate_wildcard(phrase1, phrase2, cards=5)
+    patterns= utils.generate_wildcard(phrase1, phrase2, cards=10)
     print(patterns)
     mydoc = fileobject.Docs(os.path.join(
         DATAPATH, 'arxiv_titles_and_abstracts.txt'
     ))
-    mydoc.initialize()
-    mydoc.save('test.pth')
+    # mydoc.initialize()
+    # mydoc.save('test.pth')
     mydoc.load('test.pth')
+    print("load done")
     print(mydoc.match(patterns))
     print(mydoc)
     for i, doc in enumerate(mydoc.iter()):

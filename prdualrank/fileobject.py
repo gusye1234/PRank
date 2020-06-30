@@ -71,11 +71,9 @@ class Docs:
     def match(self, patterns):
         matcher = Matcher(NLP.vocab)
         matcher.add("_", None, *patterns)
-        matches = []
         match_span = []
         for doc in self._docs:
             match = matcher(doc)
-            matches.extend(match)
             match_span.extend(Docs.getMatchesDoc(match, doc))    
-        return matches, match_span
+        return match_span
 # -------------------------------------------

@@ -12,6 +12,12 @@ class BasiceExtractor:
     def __init__(self):
         self._name = "basic extractor"
     
+    def fromSpan2P(self, matches):
+        """
+        from the span object,
+        """
+        pass
+    
     def fromT2P(self, tuples):
         """
         :param tuples -> [(E1, E2), (E1,E2)...]
