@@ -35,6 +35,12 @@ def generate_wildcard(phrase1, phrase2, cards=5, minimal=2):
 # -------------------------------------------
 def isLine(line): return not any([token.is_punct for token in line])
 # -------------------------------------------
+def span2low(span): return [{'LOWER' : token.lower_} for token in span]
+def span2pos(span): return [{'POS' : token.pos_} for token in span]
+def span2tag(span): return [{'TAG' : token.tag_} for token in span]
+def span2text(span): return [{'TEXT' : token.text} for token in span]
+def str2span(string): return NLP(string)[:]
+# -------------------------------------------
 def str2phrase(string : str, tag="LOWER"):
     strs = string.split()
     phrase = []

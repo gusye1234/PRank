@@ -3,6 +3,7 @@ from spacy.tokens.doc import Doc
 from spacy.matcher import Matcher
 from spacy.matcher import PhraseMatcher
 from spacy.tokenizer import Tokenizer
+from spacy.tokens.span import Span
 import re
 
 from whoosh.qparser import QueryParser

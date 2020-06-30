@@ -2,7 +2,7 @@
     To run test
 """
 from .world import *
-from . import fileobject
+from . import object
 from . import rank
 from . import utils
 from . import search
@@ -16,12 +16,12 @@ def test_docs():
     phrase2 = utils.str2phrase("machine learning")
     patterns= utils.generate_wildcard(phrase1, phrase2, cards=10)
     print(patterns)
-    mydoc = fileobject.Docs(os.path.join(
+    mydoc = object.Docs(os.path.join(
         DATAPATH, 'arxiv_titles_and_abstracts.txt'
     ))
-    # mydoc.initialize()
-    # mydoc.save('test.pth')
-    mydoc.load('test.pth')
+    mydoc.initialize(preload=5)
+    # mydoc.save('toy.pth')
+    # mydoc.load('test.pth')
     print("load done")
     print(mydoc.match(patterns))
     print(mydoc)
@@ -43,7 +43,19 @@ def test_infer():
     results = inferor.infer(tuples, patterns, relation, seed_tuples=[tuples[0]], max_iter=20) 
     print(results)
       
+def test_objects():
+    t1 = utils.str2span("machine learning")
+    t2 = utils.str2span("AI")
+    p1 = (utils.str2span("The"), utils.str2span("algorithms"))
+    p2 = (utils.str2span("of"), utils.str2span("area"))
+    tuple1 = object.Tuple(t1, t2)
+    pattern1 = object.Pattern(p1, p2)
+    print(tuple1)
+    print(pattern1)
+    assert id(tuple1) == id(object.Tuple(t1, t2))
+    assert id(pattern1) == id(object.Pattern(p1, p2))
     
 if __name__ == "__main__":
-    test_docs()
+    # test_docs()
     # test_infer()
+    test_objects()
