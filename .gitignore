@@ -19,7 +19,8 @@ tmp/
 *.log
 *.pickle
 dist/
-torchtrace.egg-info/
+.ipynb_checkpoints/
 install.sh
 build
 data/
+toy.txt
