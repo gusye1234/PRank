@@ -2,11 +2,17 @@
 
 `Prank` is a library for text mining,  especially designed for binary relationship. See all the dependencies in `requirements.txt`.
 
-#### What is tuple extraction?
+
+
+## What is tuple extraction?
 
 This is an large area in data mining. In general, tuple extraction aims to find similar entity pairs, where we define "similar" as belonging to the same relationship. For example, `(Beijing, China)` is a tuple, where we assume such tuple is from a relationship `is the capital city of`, so we can claim that : `(Washington, USA)` is more similar to `(Beijing, China)` than, let's say, `(Laker, USA)`. Our job is to find such connections.
 
-#### A quick tutor
+
+
+
+
+## A quick tutor of `prank`
 
 We consider a simple text data first:
 
@@ -36,25 +42,7 @@ There are two important abstract in `prank`
 
 * `Tuple`, which represents a tuples takes the form of `(#E, #E)`. For example, `(2,4)` is a tuple, which belongs to the relationship `multiply two`, or `square`
 
-(see more details in `prank.object`)
-
-**First step**, we need to import the text data and tag it. Thanks to `spaCy`, we can do it really quick and simple.
-
-In `prank`, we use such command:
-
-```python
-from prank.object import Docs
-mydocs = Docs('toy.txt')
-mydocs.initialize()
-# output: 
-# <Docs> toy.txt => have 1 docs(1000000 bytes)
-```
-
-(*for the `initialize` method, we can use a keyword `preload` to control the size of text we need, it's useful for some very large data like, `wiki` with more than 6GB text*)
-
-
-
-## A quick tutor of `prank`
+(*see more details in `prank.object`*)
 
 #### First step
 
@@ -68,7 +56,7 @@ mydocs.initialize()
 ```
 *for the `initialize` method, we can use a keyword `preload` to control the size of text we need, it's useful for some very large data like, `wiki` with more than 6GB text*
 
-#### second step
+#### Second step
 
 we should define a way to search new tuples and patterns from the raw text data, we refer the work [PRDualRank](https://dl.acm.org/doi/10.1145/1935826.1935933) here.
 
