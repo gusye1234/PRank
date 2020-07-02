@@ -1,3 +1,6 @@
+"""
+import necessary library 
+"""
 import spacy
 from spacy.tokens.doc import Doc
 from spacy.matcher import Matcher
@@ -6,14 +9,6 @@ from spacy.tokenizer import Tokenizer
 from spacy.tokens.span import Span
 import re
 
-from whoosh.qparser import QueryParser
-import whoosh.index as index
-from whoosh.index import open_dir
-from whoosh.query import Every
-
-from collections import defaultdict
-
-import matplotlib.pyplot as plt
 import numpy as np
 from rich.progress import track
 from rich import print

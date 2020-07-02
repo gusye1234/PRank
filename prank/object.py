@@ -61,7 +61,7 @@ class Docs:
             pickle.dump(self._docs, f)
     
     def initialize(self, preload=None):
-        print("[bold yellow]Start to load docs[/bold yellow]")
+        print(gstr("Start to load docs"))
         for i, data in tqdm(enumerate(Docs.partition(self._file))):
             if preload is not None and i >= preload:
                 break
@@ -89,8 +89,9 @@ class Pattern:
     """
     Design for binary relationship
     """
-    Pattern_hash = {}
-    P_id = 0
+    __Pattern_hash = {}
+    __P_id = 0
+    
     def __new__(cls, left_phrase, right_phrase):
         """
         Store patterns
@@ -98,15 +99,24 @@ class Pattern:
             :param: right_phrase tuple(span, span)
         """
         label = (left_phrase[0].text, left_phrase[1].text, right_phrase[0].text, right_phrase[1].text)
-        already = cls.Pattern_hash.get(label, None)
+        already = cls.__Pattern_hash.get(label, None)
         if already is None:
-            cls.P_id += 1
+            cls.__P_id += 1
             self = object.__new__(cls)
-            cls.Pattern_hash[label] = self
+            cls.__Pattern_hash[label] = self
             return self
         else:
             already.appear += 1
             return already
+    
+    @staticmethod
+    def patterns():
+        return list(Pattern.__Pattern_hash.values())
+         
+    @staticmethod
+    def pattern_num():
+        return Pattern.__P_id
+    
          
     def __init__(self, left_phrase, right_phrase):
         if not hasattr(self, "appear"):
@@ -177,8 +187,8 @@ class Tuple:
     """
     desgin for binary relationship
     """
-    Tuple_hash = {}
-    T_id = 0
+    __Tuple_hash = {}
+    __T_id = 0
     def __new__(cls, tuple_left,tuple_right, seed=False):
         """
         Store tuples
@@ -186,28 +196,35 @@ class Tuple:
             :param: tuple_right str or Span
         """
         label = (str(tuple_left), str(tuple_right))
-        already = Tuple.Tuple_hash.get(label, None)
+        already = Tuple.__Tuple_hash.get(label, None)
         if already is None:
             self = object.__new__(cls)
-            Tuple.Tuple_hash[label] = self
-            Tuple.T_id += 1
+            Tuple.__Tuple_hash[label] = self
+            Tuple.__T_id += 1
             return self
         else:
             return already
+    @staticmethod
+    def tuples():
+        return list(Tuple.__Tuple_hash.values())
+    
+    @staticmethod
+    def tuple_num():
+        return Tuple.__T_id
     
     @staticmethod
     def remainTopK(topk):
-        if len(Tuple.Tuple_hash) <= topk:
+        if len(Tuple.__Tuple_hash) <= topk:
             pass
         else:
-            arg_sort = sorted(Tuple.Tuple_hash.items(), key= lambda x : x[1].appear)
-            Tuple.T_id = topk
-            for i in range(len(Tuple.Tuple_hash) - topk):
+            arg_sort = sorted(Tuple.__Tuple_hash.items(), key= lambda x : x[1].appear)
+            Tuple.__T_id = topk
+            for i in range(len(Tuple.__Tuple_hash) - topk):
                 if arg_sort[i][1].is_seed():
                     continue
                 arg = arg_sort[i][0]
-                Tuple.Tuple_hash.pop(arg)
-        return list(Tuple.Tuple_hash.values())
+                Tuple.__Tuple_hash.pop(arg)
+        return list(Tuple.__Tuple_hash.values())
     
     def __init__(self, tuple_left, tuple_right, seed=False):
         if not hasattr(self, 'appear'):

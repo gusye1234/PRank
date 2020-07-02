@@ -3,26 +3,6 @@
 """
 from .world import *
 
-
-# -------------------------------------------
-# def extractor(document, *pattern):
-#     '''
-#     A phrase extractor based on spacy
-#         :param document
-#         :param list pattern: extraction pattern
-#     :return phrase extraction from 
-#     '''
-#     phrases = []
-#     MATCHER.add("pattern extraction", None, *pattern)
-#     doc = document if isinstance(document, Doc) else NLP(document)
-#     matches = MATCHER(doc)
-#     for match_id, start, end in matches:
-#         # string_id = NLP.vocab.strings[match_id]  # Get string representation
-#         span = doc[start:end]  # The matched span
-#         phrases.append(span.text)
-#     MATCHER.remove('pattern extraction')
-#     return phrases
-# -------------------------------------------
 def generate_wildcard(phrase1, phrase2, cards=5, minimal=0):
     """
     return patterns with wildcard between. (phrase1 ... phrase2)
@@ -106,12 +86,15 @@ def show_library():
     """
     from rich import print
     logo="""
-,--------.              
-'--.  .--',---. ,--.--. 
-   |  |  | .-. ||  .--' 
-   |  |  ' '-' '|  |    
-   `--'   `---' `--'   A library for tuple extraction"""
-    print("[bold blue]"+logo+"[/bold blue]")
+.______   .______          ___      .__   __.  __  ___ 
+|   _  \  |   _  \        /   \     |  \ |  | |  |/  / 
+|  |_)  | |  |_)  |      /  ^  \    |   \|  | |  '  /  
+|   ___/  |      /      /  /_\  \   |  . `  | |    <   
+|  |      |  |\  \----./  _____  \  |  |\   | |  .  \  
+| _|      | _| `._____/__/     \__\ |__| \__| |__|\__\ 
+A library for binary-relation tuple extraction
+    """
+    print("[bold green]"+logo+"[/bold green]")
 
     inform="""
     Author: Jianbai Ye (叶坚白)

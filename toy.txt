@@ -1,0 +1,1000 @@
+10 square is 100 .
+12 multiply two is 24 .
+34 minus one is 33 .
+10 plus one is 11 .
+28 minus one is 27 .
+34 divide two is 17 .
+49 divide two is 24 .
+48 divide two is 24 .
+23 divide two is 11 .
+9 minus one is 8 .
+33 square is 1089 .
+11 minus one is 10 .
+23 plus one is 24 .
+50 square is 2500 .
+18 divide two is 9 .
+29 divide two is 14 .
+48 plus one is 49 .
+4 square is 16 .
+4 plus one is 5 .
+37 plus one is 38 .
+29 multiply two is 58 .
+43 multiply two is 86 .
+38 minus one is 37 .
+18 plus one is 19 .
+28 divide two is 14 .
+15 square is 225 .
+30 plus one is 31 .
+48 square is 2304 .
+25 multiply two is 50 .
+1 plus one is 2 .
+21 plus one is 22 .
+48 plus one is 49 .
+24 minus one is 23 .
+21 square is 441 .
+32 plus one is 33 .
+24 square is 576 .
+24 plus one is 25 .
+28 plus one is 29 .
+50 multiply two is 100 .
+43 minus one is 42 .
+9 divide two is 4 .
+26 divide two is 13 .
+42 divide two is 21 .
+35 multiply two is 70 .
+32 plus one is 33 .
+28 divide two is 14 .
+20 divide two is 10 .
+10 divide two is 5 .
+11 multiply two is 22 .
+4 multiply two is 8 .
+37 divide two is 18 .
+40 divide two is 20 .
+15 multiply two is 30 .
+18 divide two is 9 .
+36 minus one is 35 .
+32 plus one is 33 .
+8 square is 64 .
+21 plus one is 22 .
+30 divide two is 15 .
+28 plus one is 29 .
+10 multiply two is 20 .
+19 plus one is 20 .
+42 plus one is 43 .
+20 multiply two is 40 .
+50 plus one is 51 .
+13 multiply two is 26 .
+47 minus one is 46 .
+3 divide two is 1 .
+24 minus one is 23 .
+36 multiply two is 72 .
+30 divide two is 15 .
+6 multiply two is 12 .
+10 minus one is 9 .
+29 plus one is 30 .
+3 minus one is 2 .
+6 multiply two is 12 .
+45 plus one is 46 .
+26 plus one is 27 .
+11 divide two is 5 .
+44 divide two is 22 .
+6 divide two is 3 .
+1 divide two is 0 .
+39 minus one is 38 .
+18 multiply two is 36 .
+40 divide two is 20 .
+10 plus one is 11 .
+15 square is 225 .
+47 minus one is 46 .
+15 multiply two is 30 .
+3 minus one is 2 .
+11 plus one is 12 .
+13 plus one is 14 .
+40 minus one is 39 .
+28 multiply two is 56 .
+29 plus one is 30 .
+9 divide two is 4 .
+32 plus one is 33 .
+22 square is 484 .
+46 divide two is 23 .
+42 minus one is 41 .
+24 minus one is 23 .
+19 square is 361 .
+29 divide two is 14 .
+45 multiply two is 90 .
+42 plus one is 43 .
+2 square is 4 .
+34 plus one is 35 .
+26 square is 676 .
+41 plus one is 42 .
+7 divide two is 3 .
+7 plus one is 8 .
+30 minus one is 29 .
+39 plus one is 40 .
+3 divide two is 1 .
+48 plus one is 49 .
+16 plus one is 17 .
+40 plus one is 41 .
+46 square is 2116 .
+21 multiply two is 42 .
+22 multiply two is 44 .
+28 multiply two is 56 .
+16 plus one is 17 .
+25 square is 625 .
+29 divide two is 14 .
+29 square is 841 .
+12 plus one is 13 .
+41 multiply two is 82 .
+3 plus one is 4 .
+11 square is 121 .
+50 multiply two is 100 .
+3 multiply two is 6 .
+11 plus one is 12 .
+34 multiply two is 68 .
+18 divide two is 9 .
+15 square is 225 .
+28 multiply two is 56 .
+13 plus one is 14 .
+19 divide two is 9 .
+25 square is 625 .
+37 minus one is 36 .
+23 minus one is 22 .
+20 plus one is 21 .
+10 divide two is 5 .
+6 square is 36 .
+45 square is 2025 .
+17 multiply two is 34 .
+35 multiply two is 70 .
+28 square is 784 .
+3 divide two is 1 .
+4 square is 16 .
+38 minus one is 37 .
+45 multiply two is 90 .
+2 divide two is 1 .
+29 minus one is 28 .
+9 plus one is 10 .
+4 square is 16 .
+24 plus one is 25 .
+38 square is 1444 .
+21 minus one is 20 .
+28 multiply two is 56 .
+33 square is 1089 .
+35 minus one is 34 .
+9 minus one is 8 .
+48 square is 2304 .
+43 square is 1849 .
+16 divide two is 8 .
+41 divide two is 20 .
+30 divide two is 15 .
+50 plus one is 51 .
+9 plus one is 10 .
+38 divide two is 19 .
+44 minus one is 43 .
+8 square is 64 .
+11 multiply two is 22 .
+7 divide two is 3 .
+18 divide two is 9 .
+29 divide two is 14 .
+38 multiply two is 76 .
+2 square is 4 .
+15 square is 225 .
+2 plus one is 3 .
+16 plus one is 17 .
+27 divide two is 13 .
+5 multiply two is 10 .
+13 multiply two is 26 .
+1 minus one is 0 .
+3 minus one is 2 .
+36 plus one is 37 .
+46 multiply two is 92 .
+4 plus one is 5 .
+11 divide two is 5 .
+10 multiply two is 20 .
+7 plus one is 8 .
+17 square is 289 .
+12 minus one is 11 .
+16 square is 256 .
+20 divide two is 10 .
+47 multiply two is 94 .
+2 square is 4 .
+24 minus one is 23 .
+39 plus one is 40 .
+5 minus one is 4 .
+30 square is 900 .
+4 minus one is 3 .
+22 divide two is 11 .
+8 divide two is 4 .
+37 plus one is 38 .
+8 minus one is 7 .
+37 minus one is 36 .
+25 square is 625 .
+19 square is 361 .
+16 multiply two is 32 .
+33 divide two is 16 .
+10 square is 100 .
+42 square is 1764 .
+47 divide two is 23 .
+11 multiply two is 22 .
+29 minus one is 28 .
+32 divide two is 16 .
+31 multiply two is 62 .
+15 square is 225 .
+3 minus one is 2 .
+31 divide two is 15 .
+34 square is 1156 .
+5 divide two is 2 .
+21 divide two is 10 .
+14 square is 196 .
+5 plus one is 6 .
+23 square is 529 .
+26 square is 676 .
+39 plus one is 40 .
+45 minus one is 44 .
+16 square is 256 .
+35 multiply two is 70 .
+11 divide two is 5 .
+33 minus one is 32 .
+28 divide two is 14 .
+15 multiply two is 30 .
+49 multiply two is 98 .
+41 divide two is 20 .
+12 minus one is 11 .
+1 divide two is 0 .
+18 plus one is 19 .
+16 minus one is 15 .
+42 divide two is 21 .
+24 plus one is 25 .
+29 square is 841 .
+24 multiply two is 48 .
+11 divide two is 5 .
+10 plus one is 11 .
+36 multiply two is 72 .
+11 plus one is 12 .
+4 square is 16 .
+38 multiply two is 76 .
+40 minus one is 39 .
+19 square is 361 .
+14 divide two is 7 .
+8 square is 64 .
+20 multiply two is 40 .
+38 multiply two is 76 .
+50 plus one is 51 .
+41 multiply two is 82 .
+43 minus one is 42 .
+49 divide two is 24 .
+16 square is 256 .
+14 minus one is 13 .
+29 square is 841 .
+23 plus one is 24 .
+47 square is 2209 .
+42 divide two is 21 .
+32 plus one is 33 .
+46 multiply two is 92 .
+30 plus one is 31 .
+29 divide two is 14 .
+21 square is 441 .
+1 square is 1 .
+25 minus one is 24 .
+5 divide two is 2 .
+40 plus one is 41 .
+14 multiply two is 28 .
+12 divide two is 6 .
+11 divide two is 5 .
+2 square is 4 .
+11 plus one is 12 .
+24 plus one is 25 .
+24 multiply two is 48 .
+49 minus one is 48 .
+31 divide two is 15 .
+12 divide two is 6 .
+33 minus one is 32 .
+23 square is 529 .
+22 plus one is 23 .
+13 divide two is 6 .
+38 square is 1444 .
+26 plus one is 27 .
+40 minus one is 39 .
+28 divide two is 14 .
+13 square is 169 .
+44 minus one is 43 .
+38 multiply two is 76 .
+40 multiply two is 80 .
+17 minus one is 16 .
+42 plus one is 43 .
+49 divide two is 24 .
+37 multiply two is 74 .
+22 minus one is 21 .
+15 square is 225 .
+11 minus one is 10 .
+2 square is 4 .
+21 square is 441 .
+39 divide two is 19 .
+20 plus one is 21 .
+34 multiply two is 68 .
+36 multiply two is 72 .
+13 plus one is 14 .
+43 square is 1849 .
+15 multiply two is 30 .
+44 plus one is 45 .
+8 divide two is 4 .
+6 multiply two is 12 .
+38 square is 1444 .
+13 plus one is 14 .
+44 square is 1936 .
+40 divide two is 20 .
+42 plus one is 43 .
+12 square is 144 .
+10 divide two is 5 .
+9 plus one is 10 .
+47 plus one is 48 .
+11 square is 121 .
+45 plus one is 46 .
+12 divide two is 6 .
+6 plus one is 7 .
+1 plus one is 2 .
+2 divide two is 1 .
+31 plus one is 32 .
+15 divide two is 7 .
+3 minus one is 2 .
+46 multiply two is 92 .
+25 square is 625 .
+10 square is 100 .
+14 square is 196 .
+9 minus one is 8 .
+16 minus one is 15 .
+2 plus one is 3 .
+32 square is 1024 .
+50 divide two is 25 .
+46 multiply two is 92 .
+27 divide two is 13 .
+9 minus one is 8 .
+32 multiply two is 64 .
+11 minus one is 10 .
+11 square is 121 .
+20 plus one is 21 .
+17 divide two is 8 .
+15 plus one is 16 .
+45 multiply two is 90 .
+11 minus one is 10 .
+19 plus one is 20 .
+3 minus one is 2 .
+2 divide two is 1 .
+21 minus one is 20 .
+8 square is 64 .
+43 multiply two is 86 .
+17 square is 289 .
+29 multiply two is 58 .
+14 minus one is 13 .
+21 plus one is 22 .
+50 plus one is 51 .
+46 multiply two is 92 .
+10 square is 100 .
+37 square is 1369 .
+12 multiply two is 24 .
+20 divide two is 10 .
+36 square is 1296 .
+29 divide two is 14 .
+36 plus one is 37 .
+15 plus one is 16 .
+14 multiply two is 28 .
+11 multiply two is 22 .
+36 multiply two is 72 .
+31 square is 961 .
+21 divide two is 10 .
+15 minus one is 14 .
+9 plus one is 10 .
+40 multiply two is 80 .
+37 multiply two is 74 .
+17 square is 289 .
+1 plus one is 2 .
+30 divide two is 15 .
+43 plus one is 44 .
+24 multiply two is 48 .
+9 multiply two is 18 .
+49 minus one is 48 .
+12 square is 144 .
+32 plus one is 33 .
+30 square is 900 .
+46 square is 2116 .
+22 square is 484 .
+6 minus one is 5 .
+27 divide two is 13 .
+6 multiply two is 12 .
+1 divide two is 0 .
+10 multiply two is 20 .
+44 plus one is 45 .
+21 multiply two is 42 .
+1 square is 1 .
+18 multiply two is 36 .
+17 multiply two is 34 .
+14 minus one is 13 .
+13 plus one is 14 .
+7 divide two is 3 .
+50 divide two is 25 .
+32 divide two is 16 .
+50 minus one is 49 .
+10 divide two is 5 .
+44 divide two is 22 .
+38 multiply two is 76 .
+8 plus one is 9 .
+35 plus one is 36 .
+18 square is 324 .
+12 minus one is 11 .
+1 minus one is 0 .
+14 minus one is 13 .
+38 multiply two is 76 .
+21 divide two is 10 .
+30 divide two is 15 .
+13 divide two is 6 .
+42 plus one is 43 .
+22 plus one is 23 .
+49 plus one is 50 .
+41 divide two is 20 .
+37 square is 1369 .
+45 plus one is 46 .
+1 divide two is 0 .
+7 plus one is 8 .
+14 divide two is 7 .
+12 minus one is 11 .
+42 minus one is 41 .
+48 minus one is 47 .
+43 divide two is 21 .
+39 plus one is 40 .
+17 plus one is 18 .
+7 divide two is 3 .
+10 plus one is 11 .
+50 minus one is 49 .
+23 plus one is 24 .
+37 divide two is 18 .
+10 multiply two is 20 .
+32 square is 1024 .
+48 plus one is 49 .
+6 square is 36 .
+13 multiply two is 26 .
+46 plus one is 47 .
+13 square is 169 .
+31 square is 961 .
+27 plus one is 28 .
+9 plus one is 10 .
+3 divide two is 1 .
+38 minus one is 37 .
+19 plus one is 20 .
+50 plus one is 51 .
+28 square is 784 .
+22 minus one is 21 .
+29 square is 841 .
+10 minus one is 9 .
+30 plus one is 31 .
+40 square is 1600 .
+7 plus one is 8 .
+50 divide two is 25 .
+22 multiply two is 44 .
+7 divide two is 3 .
+40 multiply two is 80 .
+31 plus one is 32 .
+28 multiply two is 56 .
+33 minus one is 32 .
+3 minus one is 2 .
+17 square is 289 .
+47 square is 2209 .
+29 divide two is 14 .
+46 multiply two is 92 .
+28 square is 784 .
+11 minus one is 10 .
+20 divide two is 10 .
+6 minus one is 5 .
+10 multiply two is 20 .
+10 multiply two is 20 .
+21 minus one is 20 .
+8 plus one is 9 .
+34 multiply two is 68 .
+49 square is 2401 .
+11 minus one is 10 .
+22 plus one is 23 .
+9 plus one is 10 .
+33 square is 1089 .
+16 plus one is 17 .
+32 minus one is 31 .
+26 square is 676 .
+17 square is 289 .
+12 minus one is 11 .
+6 plus one is 7 .
+49 divide two is 24 .
+31 multiply two is 62 .
+12 multiply two is 24 .
+47 minus one is 46 .
+49 plus one is 50 .
+35 plus one is 36 .
+20 multiply two is 40 .
+29 square is 841 .
+40 minus one is 39 .
+30 plus one is 31 .
+12 minus one is 11 .
+13 square is 169 .
+16 plus one is 17 .
+18 minus one is 17 .
+33 plus one is 34 .
+39 plus one is 40 .
+16 divide two is 8 .
+48 divide two is 24 .
+44 minus one is 43 .
+39 plus one is 40 .
+50 plus one is 51 .
+33 minus one is 32 .
+39 multiply two is 78 .
+9 plus one is 10 .
+21 multiply two is 42 .
+19 multiply two is 38 .
+23 divide two is 11 .
+29 plus one is 30 .
+1 square is 1 .
+45 divide two is 22 .
+34 plus one is 35 .
+37 square is 1369 .
+47 plus one is 48 .
+29 divide two is 14 .
+8 multiply two is 16 .
+14 multiply two is 28 .
+21 minus one is 20 .
+36 minus one is 35 .
+11 divide two is 5 .
+10 divide two is 5 .
+27 multiply two is 54 .
+21 square is 441 .
+48 square is 2304 .
+42 minus one is 41 .
+40 multiply two is 80 .
+37 plus one is 38 .
+20 square is 400 .
+17 multiply two is 34 .
+26 minus one is 25 .
+44 multiply two is 88 .
+43 minus one is 42 .
+18 square is 324 .
+25 square is 625 .
+48 minus one is 47 .
+3 minus one is 2 .
+36 multiply two is 72 .
+41 plus one is 42 .
+6 plus one is 7 .
+48 multiply two is 96 .
+15 multiply two is 30 .
+18 multiply two is 36 .
+36 square is 1296 .
+7 square is 49 .
+47 multiply two is 94 .
+36 plus one is 37 .
+30 square is 900 .
+38 minus one is 37 .
+36 multiply two is 72 .
+49 square is 2401 .
+27 multiply two is 54 .
+14 plus one is 15 .
+15 divide two is 7 .
+36 square is 1296 .
+36 minus one is 35 .
+18 square is 324 .
+36 multiply two is 72 .
+37 divide two is 18 .
+26 plus one is 27 .
+19 multiply two is 38 .
+34 minus one is 33 .
+48 multiply two is 96 .
+21 plus one is 22 .
+28 minus one is 27 .
+30 minus one is 29 .
+19 plus one is 20 .
+20 plus one is 21 .
+24 multiply two is 48 .
+26 minus one is 25 .
+25 divide two is 12 .
+50 minus one is 49 .
+14 plus one is 15 .
+13 divide two is 6 .
+5 plus one is 6 .
+42 minus one is 41 .
+11 divide two is 5 .
+4 square is 16 .
+21 minus one is 20 .
+24 square is 576 .
+4 multiply two is 8 .
+35 divide two is 17 .
+27 divide two is 13 .
+50 divide two is 25 .
+29 plus one is 30 .
+14 plus one is 15 .
+19 square is 361 .
+48 minus one is 47 .
+43 plus one is 44 .
+32 multiply two is 64 .
+16 minus one is 15 .
+15 square is 225 .
+31 multiply two is 62 .
+31 square is 961 .
+32 plus one is 33 .
+40 multiply two is 80 .
+45 divide two is 22 .
+23 plus one is 24 .
+36 plus one is 37 .
+47 multiply two is 94 .
+41 divide two is 20 .
+47 square is 2209 .
+5 plus one is 6 .
+13 square is 169 .
+17 multiply two is 34 .
+8 square is 64 .
+38 minus one is 37 .
+34 square is 1156 .
+4 square is 16 .
+25 multiply two is 50 .
+38 minus one is 37 .
+42 square is 1764 .
+4 multiply two is 8 .
+10 minus one is 9 .
+40 square is 1600 .
+11 divide two is 5 .
+9 divide two is 4 .
+6 plus one is 7 .
+36 plus one is 37 .
+20 plus one is 21 .
+38 square is 1444 .
+6 multiply two is 12 .
+38 minus one is 37 .
+10 multiply two is 20 .
+22 multiply two is 44 .
+6 multiply two is 12 .
+28 plus one is 29 .
+25 square is 625 .
+2 minus one is 1 .
+50 minus one is 49 .
+3 square is 9 .
+34 square is 1156 .
+22 minus one is 21 .
+23 plus one is 24 .
+3 plus one is 4 .
+36 divide two is 18 .
+5 divide two is 2 .
+42 multiply two is 84 .
+46 minus one is 45 .
+50 multiply two is 100 .
+49 multiply two is 98 .
+1 minus one is 0 .
+43 minus one is 42 .
+19 divide two is 9 .
+28 minus one is 27 .
+37 minus one is 36 .
+1 square is 1 .
+26 divide two is 13 .
+15 square is 225 .
+34 square is 1156 .
+5 multiply two is 10 .
+34 divide two is 17 .
+14 square is 196 .
+12 multiply two is 24 .
+4 square is 16 .
+20 square is 400 .
+19 multiply two is 38 .
+23 square is 529 .
+42 divide two is 21 .
+18 minus one is 17 .
+33 divide two is 16 .
+22 minus one is 21 .
+20 square is 400 .
+15 plus one is 16 .
+4 multiply two is 8 .
+38 plus one is 39 .
+24 minus one is 23 .
+40 square is 1600 .
+32 minus one is 31 .
+49 plus one is 50 .
+25 multiply two is 50 .
+22 minus one is 21 .
+24 divide two is 12 .
+21 square is 441 .
+17 square is 289 .
+33 plus one is 34 .
+12 divide two is 6 .
+43 divide two is 21 .
+30 plus one is 31 .
+38 plus one is 39 .
+11 square is 121 .
+25 minus one is 24 .
+40 square is 1600 .
+29 minus one is 28 .
+41 plus one is 42 .
+23 divide two is 11 .
+30 plus one is 31 .
+26 multiply two is 52 .
+48 minus one is 47 .
+43 divide two is 21 .
+5 divide two is 2 .
+41 minus one is 40 .
+12 multiply two is 24 .
+3 square is 9 .
+25 multiply two is 50 .
+11 plus one is 12 .
+17 divide two is 8 .
+8 plus one is 9 .
+34 minus one is 33 .
+3 plus one is 4 .
+38 minus one is 37 .
+18 plus one is 19 .
+45 divide two is 22 .
+28 divide two is 14 .
+26 divide two is 13 .
+32 plus one is 33 .
+49 plus one is 50 .
+34 plus one is 35 .
+37 divide two is 18 .
+23 minus one is 22 .
+14 minus one is 13 .
+50 minus one is 49 .
+21 divide two is 10 .
+31 divide two is 15 .
+47 plus one is 48 .
+24 square is 576 .
+21 divide two is 10 .
+40 multiply two is 80 .
+47 plus one is 48 .
+35 divide two is 17 .
+38 divide two is 19 .
+2 divide two is 1 .
+13 divide two is 6 .
+41 divide two is 20 .
+49 plus one is 50 .
+34 plus one is 35 .
+27 plus one is 28 .
+14 multiply two is 28 .
+23 plus one is 24 .
+49 multiply two is 98 .
+43 plus one is 44 .
+38 plus one is 39 .
+21 divide two is 10 .
+6 divide two is 3 .
+48 minus one is 47 .
+3 minus one is 2 .
+23 square is 529 .
+27 divide two is 13 .
+13 divide two is 6 .
+21 minus one is 20 .
+3 minus one is 2 .
+1 divide two is 0 .
+35 plus one is 36 .
+34 divide two is 17 .
+9 divide two is 4 .
+27 minus one is 26 .
+26 plus one is 27 .
+15 minus one is 14 .
+2 minus one is 1 .
+26 square is 676 .
+15 plus one is 16 .
+43 divide two is 21 .
+44 divide two is 22 .
+46 divide two is 23 .
+16 plus one is 17 .
+22 plus one is 23 .
+31 multiply two is 62 .
+40 multiply two is 80 .
+9 square is 81 .
+24 plus one is 25 .
+33 divide two is 16 .
+7 square is 49 .
+17 divide two is 8 .
+12 divide two is 6 .
+37 square is 1369 .
+21 minus one is 20 .
+19 plus one is 20 .
+28 divide two is 14 .
+8 multiply two is 16 .
+48 multiply two is 96 .
+46 divide two is 23 .
+22 multiply two is 44 .
+34 square is 1156 .
+12 minus one is 11 .
+29 multiply two is 58 .
+30 divide two is 15 .
+7 divide two is 3 .
+24 minus one is 23 .
+1 square is 1 .
+44 divide two is 22 .
+28 minus one is 27 .
+30 divide two is 15 .
+18 square is 324 .
+13 divide two is 6 .
+23 multiply two is 46 .
+45 minus one is 44 .
+4 minus one is 3 .
+27 divide two is 13 .
+27 minus one is 26 .
+3 multiply two is 6 .
+44 minus one is 43 .
+14 minus one is 13 .
+23 divide two is 11 .
+8 plus one is 9 .
+28 minus one is 27 .
+29 divide two is 14 .
+18 minus one is 17 .
+15 plus one is 16 .
+35 square is 1225 .
+12 divide two is 6 .
+45 square is 2025 .
+9 square is 81 .
+37 divide two is 18 .
+24 minus one is 23 .
+47 plus one is 48 .
+26 divide two is 13 .
+26 multiply two is 52 .
+19 divide two is 9 .
+11 divide two is 5 .
+40 divide two is 20 .
+1 divide two is 0 .
+27 minus one is 26 .
+19 plus one is 20 .
+38 square is 1444 .
+43 square is 1849 .
+48 minus one is 47 .
+4 plus one is 5 .
+27 divide two is 13 .
+17 divide two is 8 .
+30 square is 900 .
+43 multiply two is 86 .
+22 minus one is 21 .
+30 minus one is 29 .
+20 minus one is 19 .
+2 plus one is 3 .
+12 square is 144 .
+48 square is 2304 .
+25 multiply two is 50 .
+26 plus one is 27 .
+41 multiply two is 82 .
+36 plus one is 37 .
+17 minus one is 16 .
+17 plus one is 18 .
+19 square is 361 .
+34 minus one is 33 .
+2 divide two is 1 .
+41 plus one is 42 .
+12 square is 144 .
+21 multiply two is 42 .
+11 minus one is 10 .
+14 divide two is 7 .
+38 minus one is 37 .
+39 divide two is 19 .
+32 minus one is 31 .
+38 minus one is 37 .
+41 divide two is 20 .
+26 multiply two is 52 .
+32 multiply two is 64 .
+29 square is 841 .
+27 square is 729 .
+35 minus one is 34 .
+35 multiply two is 70 .
+7 square is 49 .
+19 plus one is 20 .
+22 square is 484 .
+45 minus one is 44 .
+44 divide two is 22 .
+26 multiply two is 52 .
+23 minus one is 22 .
+45 multiply two is 90 .
+13 divide two is 6 .
+38 minus one is 37 .
+46 square is 2116 .
+42 divide two is 21 .
+16 minus one is 15 .
+32 plus one is 33 .
+42 divide two is 21 .
+49 square is 2401 .
+25 multiply two is 50 .
+37 minus one is 36 .
+40 multiply two is 80 .
+6 divide two is 3 .
+42 divide two is 21 .
+45 minus one is 44 .
+47 plus one is 48 .
+49 divide two is 24 .
+17 multiply two is 34 .
+45 multiply two is 90 .
+8 multiply two is 16 .
+6 square is 36 .
+46 minus one is 45 .
+49 plus one is 50 .
+8 plus one is 9 .
+28 plus one is 29 .
+12 divide two is 6 .
+48 plus one is 49 .
+17 plus one is 18 .
+17 square is 289 .
+26 square is 676 .
+21 minus one is 20 .
+44 divide two is 22 .
+25 square is 625 .
+33 divide two is 16 .
+34 square is 1156 .
+5 square is 25 .
+33 plus one is 34 .
+32 multiply two is 64 .
+38 minus one is 37 .
+48 plus one is 49 .
+33 divide two is 16 .
+7 multiply two is 14 .
+20 plus one is 21 .
+1 square is 1 .
+28 square is 784 .
+30 divide two is 15 .
+50 multiply two is 100 .
+13 minus one is 12 .
+41 minus one is 40 .
+44 divide two is 22 .
+23 minus one is 22 .
+11 square is 121 .
+37 square is 1369 .
+32 square is 1024 .
+10 square is 100 .
+7 plus one is 8 .
+47 minus one is 46 .
+12 minus one is 11 .
+1 minus one is 0 .
+35 minus one is 34 .
+49 square is 2401 .
+17 plus one is 18 .
+11 divide two is 5 .
+44 divide two is 22 .
+2 minus one is 1 .
+21 plus one is 22 .
+39 plus one is 40 .
+6 minus one is 5 .
+9 multiply two is 18 .
+13 divide two is 6 .
+42 square is 1764 .
+47 square is 2209 .
+15 plus one is 16 .
+34 plus one is 35 .
+33 multiply two is 66 .
+33 divide two is 16 .
+14 multiply two is 28 .
+3 minus one is 2 .
+35 plus one is 36 .
+20 minus one is 19 .
+15 plus one is 16 .
+38 square is 1444 .
+21 plus one is 22 .
+42 minus one is 41 .
+27 minus one is 26 .
+38 plus one is 39 .
+15 minus one is 14 .
+45 square is 2025 .
+39 plus one is 40 .
+24 multiply two is 48 .
+11 square is 121 .
+1 square is 1 .
+27 square is 729 .
+38 multiply two is 76 .
+9 square is 81 .
+15 plus one is 16 .
+34 minus one is 33 .
+31 minus one is 30 .
+22 multiply two is 44 .
+48 divide two is 24 .
+49 square is 2401 .
+38 minus one is 37 .
+35 plus one is 36 .
+4 plus one is 5 .
+23 divide two is 11 .
+12 divide two is 6 .
+13 square is 169 .
+6 divide two is 3 .
+48 plus one is 49 .
+41 minus one is 40 .
+37 divide two is 18 .
+31 plus one is 32 .
+9 square is 81 .
+39 plus one is 40 .
+36 square is 1296 .
+8 minus one is 7 .
+12 plus one is 13 .
+6 minus one is 5 .
+20 divide two is 10 .
+1 multiply two is 2 .
+50 minus one is 49 .
+34 divide two is 17 .

@@ -1,6 +1,3 @@
-"""
-    To run test
-"""
 from .world import *
 from . import object
 from . import rank
@@ -76,20 +73,23 @@ def test_search():
     tuples = set([])
     tuples.update(seeds)
     for i in range(2):
-        patterns.update(searcher.fromTuple2Pattern(tuples))
-        tuples.update(searcher.fromPattern2Tuple(patterns, tuples))
-    # print(patterns)
-    print(ystr(f"Found {Pattern.P_id} patterns"))
-    print(ystr(f"Found {Tuple.T_id} tuples"))
+        # patterns.update(searcher.fromTuple2Pattern(tuples))
+        searcher.fromTuple2Pattern(Tuple.tuples())
+        # tuples.update(searcher.fromPattern2Tuple(patterns, tuples))
+        searcher.fromPattern2Tuple(Pattern.patterns(), Tuple.tuples())
+        
+    print(ystr(f"Found {Pattern.pattern_num()} patterns"))
+    print(ystr(f"Found {Tuple.tuple_num()} tuples"))
+    print(Pattern.patterns())
+    print(Tuple.tuples())
     tuples = Tuple.remainTopK(10)
-    # print([(x.appear, x) for x in tuples])
     relation = {
         tup : tup.relationship for tup in tuples
     }
     inferor = inference.PRDualRank()
     results = inferor.infer(
-        tuples,
-        list(patterns),
+        Tuple.tuples(),
+        Pattern.patterns(),
         relation,
         seed_tuples=list(seeds),
         max_iter=5

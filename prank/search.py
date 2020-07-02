@@ -1,8 +1,8 @@
 """
     Patterns search functions, includeing:
         :class Extractor
-            :method fromTuple2Pattern -> bootstraping patterns from tuples
-            :method fromPattern2Tuple ->  bootstraping tuples from patterns
+            :method fromTuple2Pattern -> bootstrapping patterns from tuples
+            :method fromPattern2Tuple ->  bootstrapping tuples from patterns
 """
 from .world import *
 from .object import Docs, Pattern, Tuple
@@ -84,7 +84,7 @@ class PRDualRankSearch(BasiceExtractor):
     
     def fromTuple2Pattern(self, tuples, outer=1, inner=2):
         self.pat_iter_times += 1
-        patterns = set([])
+        # patterns = set([])
         
         for tup in track(tuples, description=f"    ({self.pat_iter_times}) Q:patterns"):
             phrase_left = span2low(tup[0])
@@ -92,9 +92,10 @@ class PRDualRankSearch(BasiceExtractor):
             tuple_search = generate_wildcard(phrase_left, phrase_right, cards=MAX_RELATION)
             matches = self.docs.match(tuple_search)
             # print(matches)
-            patterns.update(self.fromSpan2Pattern(matches, tup, outer, inner))
+            # patterns.update(self.fromSpan2Pattern(matches, tup, outer, inner))
+            self.fromSpan2Pattern(matches, tup, outer, inner)
         
-        return patterns
+        # return patterns
     
     
     def fromPattern2Tuple(self, patterns, tuples):
@@ -102,7 +103,7 @@ class PRDualRankSearch(BasiceExtractor):
         TODO
         """
         self.tup_iter_times += 1
-        new_tuples = set([])
+        # new_tuples = set([])
         for tup in track(tuples, description=f"    ({self.tup_iter_times}) Q:tuples"):
             tup : Tuple
             # attribute search
@@ -114,8 +115,8 @@ class PRDualRankSearch(BasiceExtractor):
                 e2_matches = self.docs.match(e2)
                 new_tup = [pat.getTuple(match) for match in e1_matches] + [pat.getTuple(match) for match in e2_matches]
                 [tup.relate(pat) for tup in new_tup]
-                new_tuples.update(
-                    new_tup
-                )
-        return new_tuples
+                # new_tuples.update(
+                #     new_tup
+                # )
+        # return new_tuples
                 
