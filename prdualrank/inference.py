@@ -22,31 +22,30 @@ class BasicMethod:
         """
         assert tuples and patterns are list-like obj
         """
-        self._T2id = {}
-        self._id2T = tuples
-        self._P2id = {}
-        self._id2P = patterns
+        self.T2id = {}
+        self.id2T = tuples
+        self.P2id = {}
+        self.id2P = patterns
         for i, T in enumerate(tuples):
-            self._T2id[T] = i
+            self.T2id[T] = i
         for i, P in enumerate(patterns):
-            self._P2id[P] = i
+            self.P2id[P] = i
             
     def buildgraph(self, relation : dict, ask_graph=True):
         """
         build tuple-pattern bipartite graph without any normalization.
         """
-        assert len(self._id2T) == len(relation)
-        n = len(self._id2T)
-        m = len(self._id2P)
+        assert len(self.id2T) == len(relation)
+        n = len(self.id2T)
+        m = len(self.id2P)
         if self._context is None:
-            print(ystr(f"start to build graph for {self.name}"))
             context_values = []
             context_tuples = []
             context_patterns = []
             for tup, relate in relation.items():
-                id_t = self._T2id[tup]
-                for pattern, value in relate:
-                    id_p = self._P2id[pattern]
+                id_t = self.T2id[tup]
+                for pattern, value in relate.items():
+                    id_p = self.P2id[pattern]
                     context_tuples.append(id_t)
                     context_patterns.append(id_p)
                     context_values.append(value)
@@ -62,17 +61,16 @@ class BasicMethod:
                 bigraph[n:, :n] = C.T
                 self._graph = bigraph.tocsr()
         
-    
     def infer(self, tuples, patterns, relation):
         """
-        basic methods to score tuples
-        :param examples:
-            tuples = [(1,2), (3,6), (2, 4), (5,25)]
+        basic methods to score tuples 
+        :param: examples:
+            tuples = [(1,2), (3,6), (2, 4)]
             patterns=["plus one", "* 2", "square"]
             relation = {
-                tuples[0] : [(patterns[0], 4), (patterns[1], 3)],
-                tuples[1] : [(patterns[1], 4), (patterns[2], 2)],
-                tuples[2] : [(patterns[2], 4)]
+                tuples[0] : {patterns[0]:39, patterns[1] : 1},
+                tuples[1] : {patterns[1] : 40},
+                tuples[2] : {patterns[1] : 20, patterns[2] : 20},
             }
         """
         raise NotImplementedError(f"infer methods of {self.name} is not implemented")
@@ -87,8 +85,8 @@ class PRDualRank(BasicMethod):
     def _normalization(self):
         degree = np.array(self._context.sum(axis=1))
         column = np.array(self._context.sum(axis=0))
-        degree[degree==0.] == 1.
-        column[column==0.] == 1.
+        degree[degree<= 1e-7] = 1.
+        column[column<= 1e-7] = 1.
         d_inv = np.power(degree, -1.).flatten()
         c_inv = np.power(column, -1.).flatten()
         d_mat = sp.diags(d_inv)
@@ -124,8 +122,7 @@ class PRDualRank(BasicMethod):
         m = len(patterns)
         precision = np.zeros(n+m)
         recall = np.zeros(n+m)
-        seed_id = [self._T2id[tup] for tup in seed_tuples]
-        
+        seed_id = [self.T2id[tup] for tup in seed_tuples]
         precision[seed_id] = 1.
         recall[seed_id] = 1/len(seed_id)
         

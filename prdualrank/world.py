@@ -30,6 +30,9 @@ NLP.tokenizer = Tokenizer(NLP.vocab, infix_finditer=infix_re.finditer)
 DATAPATH = 'data'
 np.set_printoptions(precision=3)
 
+MAX_ENTITY = 1
+MAX_RELATION = 4
+
 def ystr(param): return f"[bold yellow]{param}[/bold yellow]"
 def gstr(param): return f"[bold green]{param}[/bold green]"
 def bstr(param): return f"[bold blue]{param}[/bold blue]"

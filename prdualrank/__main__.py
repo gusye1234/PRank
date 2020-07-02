@@ -32,12 +32,12 @@ def test_infer():
     tuples = [(1,2), (3,6), (2, 4), (5,25), (6,36), (7, 49)]
     patterns=["plus one", "* 2", "square"]
     relation = {
-        tuples[0] : [(patterns[0], 39), (patterns[1], 1)],
-        tuples[1] : [(patterns[1], 40)],
-        tuples[2] : [(patterns[1], 20), (patterns[2], 20)],
-        tuples[3] : [(patterns[2], 40)],
-        tuples[4] : [(patterns[2], 40)],
-        tuples[5] : [(patterns[2], 40)],
+        tuples[0] : {patterns[0]:39, patterns[1] : 1},
+        tuples[1] : {patterns[1] : 40},
+        tuples[2] : {patterns[1] : 20, patterns[2] : 20},
+        tuples[3] : {patterns[2] : 40},
+        tuples[4] : {patterns[2] : 40},
+        tuples[5] : {patterns[2] : 40},
     }
     inferor = inference.PRDualRank()
     results = inferor.infer(tuples, patterns, relation, seed_tuples=[tuples[0]], max_iter=20) 
@@ -52,10 +52,54 @@ def test_objects():
     pattern1 = object.Pattern(p1, p2)
     print(tuple1)
     print(pattern1)
-    assert id(tuple1) == id(object.Tuple(t1, t2))
-    assert id(pattern1) == id(object.Pattern(p1, p2))
+    t3 = utils.str2span("machine learning")
+    t4 = utils.str2span("AI")
+    p3 = (utils.str2span("The"), utils.str2span("algorithms"))
+    p4 = (utils.str2span("of"), utils.str2span("area"))
+    assert id(tuple1) == id(object.Tuple(t3, t4))
+    assert id(pattern1) == id(object.Pattern(p3, p4))
+    
+def test_search():
+    Tuple = object.Tuple
+    Pattern = object.Pattern
+    mydoc = object.Docs(os.path.join(
+        DATAPATH, 'toy.txt'
+    ))
+    print(ystr("please wait to load nlp model"))
+    mydoc.initialize()    
+    searcher = search.PRDualRankSearch(mydoc)
+    seeds = set([
+        Tuple("1", "2", seed=True), Tuple('2', '4', seed=True), 
+        Tuple("3", '6', seed=True), Tuple('4', '8', seed=True)
+    ])
+    patterns = set([])
+    tuples = set([])
+    tuples.update(seeds)
+    for i in range(2):
+        patterns.update(searcher.fromTuple2Pattern(tuples))
+        tuples.update(searcher.fromPattern2Tuple(patterns, tuples))
+    # print(patterns)
+    print(ystr(f"Found {Pattern.P_id} patterns"))
+    print(ystr(f"Found {Tuple.T_id} tuples"))
+    tuples = Tuple.remainTopK(10)
+    # print([(x.appear, x) for x in tuples])
+    relation = {
+        tup : tup.relationship for tup in tuples
+    }
+    inferor = inference.PRDualRank()
+    results = inferor.infer(
+        tuples,
+        list(patterns),
+        relation,
+        seed_tuples=list(seeds),
+        max_iter=5
+    )
+    top_t, top_p = rank.f1_score_rank(results, inferor)
+    print(gstr("Top-5 tuples:"), top_t[-5:])
+    print(gstr("Top-2 patterns:"), top_p[-2:])
     
 if __name__ == "__main__":
     # test_docs()
     # test_infer()
-    test_objects()
+    # test_objects()
+    test_search()
