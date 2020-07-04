@@ -23,4 +23,5 @@ dist/
 install.sh
 build
 data/
+wikiextractor/
 toy.txt

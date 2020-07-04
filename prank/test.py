@@ -95,7 +95,7 @@ def test_search():
         max_iter=5
     )
     top_t, top_p = rank.f1_score_rank(results, inferor)
-    print(gstr("Top-5 tuples:"), top_t[-5:])
+    print(gstr("Top-5 tuples:"), top_t[-8:])
     print(gstr("Top-2 patterns:"), top_p[-2:])
     
 if __name__ == "__main__":
