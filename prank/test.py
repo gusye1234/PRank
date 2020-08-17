@@ -57,6 +57,7 @@ def test_objects():
     assert id(pattern1) == id(object.Pattern(p3, p4))
     
 def test_search():
+    # breakpoint()
     Tuple = object.Tuple
     Pattern = object.Pattern
     mydoc = object.Docs(os.path.join(
